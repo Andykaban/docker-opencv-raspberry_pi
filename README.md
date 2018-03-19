@@ -1,7 +1,7 @@
 docker-opencv-raspberry_pi
 ===========
 
-This repo provides Raspberry Pi crosstools build endvironment and compile OpenCV framework (current version 3.4.1).
+This repo provides Raspberry Pi crosstools build environment and compile OpenCV framework (current version 3.4.1).
 
 ## How to use
 
