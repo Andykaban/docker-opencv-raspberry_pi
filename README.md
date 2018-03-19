@@ -17,8 +17,11 @@ docker build -t raspberry_crosstools:latest .
 docker run --rm -v {yuor_current_dir}/build:/build raspberry_crosstools:latest /bin/bash /build/create_opencv.sh prepare build tar
 ```
 where:
+
     - prepare, Download sources tree and setup working directory
+
     - build, Compile OpenCV library
+
     - tar, Create installation tarball archive 
 
 The build result placed in the build/ directory with opencv-3.4.1.tar.gz name
